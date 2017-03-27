@@ -1,0 +1,145 @@
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	}
+	html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+	background-image: url("../img/Town.png");
+	background-position: center bottom;
+	background-repeat: repeat-x;
+    margin: 0 0 100px; /* bottom = footer height */
+    padding: 5px 15px 15px 10px;
+}
+
+/************NAV***********************/
+#topNav {
+	background-color: #5cb85c;
+	box-shadow: 4px 4px 2px #888888;
+}
+.nav-link {
+	margin: 5px 0 0 30px;
+	color: white;
+	font-weight: bold;
+}
+.nav-link:hover,.nav-link:focus {
+	color: #494949;
+}
+#user {
+	margin-top:-7px;
+	color: #f06d0e;
+	font-size: 1.6em;
+	font-style: italic;
+	text-shadow: 2px 2px black;
+}
+#user:hover {
+	color: #e9f6e9;
+	text-shadow: 2px 1px #f06d0e;
+}
+
+/****************LOGIN*****************/
+#login-content {
+  background: linear-gradient(to bottom, #5cb85c, #eff5ef 20%);
+  width: 250px;
+  top: 62px;
+  z-index: 999;    
+  padding: 15px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.4);
+  border-radius: 0;
+}
+
+/**********CONTENT*********************/
+#item {
+	
+	padding: 10px;
+	margin: 0 10px 0 10px;
+	background-color: #eff5ef;
+}
+li {
+	list-style: none;
+}
+
+#prix {
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	color: #A88396;
+	width: 80px;
+	box-shadow: 0 1px 1px #ccc ;
+	background-color: #F5EFF2;
+}
+
+/************FOOTER********************/
+.small-print {
+	padding: 50px 0;
+	color: #F5EFF2;
+	text-align: center;
+}
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
+
+/******************************************************************************/
+/***************SIGNIN+ADD*************/
+fieldset {
+    padding: 10px;
+    border: 2px #5cb85c solid;
+    margin: 10px;
+}
+
+legend {
+	text-align: center;
+    font-weight: bold;
+    color: #5f5f5f;
+}
+
+form label {
+	background: #5cb85c;
+	font-weight: bold;
+	padding-left: 2px;
+	font-size: 1.1em;
+	color: #fff;
+    float: left;
+    width: 250px;
+    margin: 9px 0px 2px 0px;
+}
+
+form input {
+    margin: 8px 0px 2px 0px; 
+    border: 1px #5cb85c solid;
+}
+form textarea {
+	margin: 9px 0px 0px 0px;
+    border: 1px #5cb85c solid;
+}
+.btn-secondary {
+	background: #5cb85c;
+	font-weight: bold;
+	color: #fff;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	box-shadow: 4px 4px 2px #888888;
+	margin: 10px 0 0 40px;
+}
+.btn-secondary:hover {
+	box-shadow: none;
+	background: #e9f6e9;
+	color: #5cb85c;
+	border: 1px solid #5cb85c;
+}
+.erreur {
+	color:red;
+	font-size:0.7em;
+}
+.info {
+	color:red;
+	font-size:0.9em;
+	margin-left:20px;
+}
